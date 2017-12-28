@@ -1,0 +1,20 @@
+
+<form class="modal-content animate">
+  <div class="imgcontainer">
+    <img src="/assets/image/login.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>EmailID</b></label>
+    <input type="text" name="email" placeholder="Enter EmailID" [(ngModel)]="email" >
+
+    <label><b>Password</b></label>
+    <input type="password" name="password" placeholder="Enter Password" [(ngModel)]="password">
+
+    <button (click)="login()">Login</button>
+  </div>
+
+  <div class="container">
+    <button (click)="register()"> Register </button>
+  </div>
+</form>
